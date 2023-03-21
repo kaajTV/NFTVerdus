@@ -26,6 +26,25 @@ export const exploreNfts = [
     },
 ];
 
+export const startingFeatures = [
+    'Find the perfect NFT for you and you want to use',
+    'Use NFTVerse to be safe',
+    'No need to beat around the bush, just stay on the gas and have fun',
+];
+
+export const newFeatures = [
+    {
+        imgUrl: '/btc.svg',
+        title: 'A new NFT world',
+        subtitle: 'We have the latest update with NFT',
+    },
+    {
+        imgUrl: '/headset.svg',
+        title: 'More realistic',
+        subtitle: 'The latest update changes everything, follow to stay updated',
+    },
+];
+
 export const socials = [
     {
         name: 'github',

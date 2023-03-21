@@ -18,7 +18,7 @@ const Footer = () => (
             <h4 className="flex items-center justify-between flex-wrap gap-5">
                 Enter the NFTVerse
             </h4>
-            <button type="button" className="flex justify-center items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+            <button type="button" className="flex justify-center items-center lg:w-1/3 h-fit mx-auto py-4 px-6 bg-[#338aad] rounded-[32px] gap-[12px]">
                 <img src="/btc.svg" alt="bitcoin" className="w-[24px] h-[24px] object-contain" />
                 <span className="font-normal text-[16px] text-white">
                     Enter NFTVerse
