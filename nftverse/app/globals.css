@@ -33,7 +33,7 @@
   );
 }
 
-.nfttext-gradient {
+.text-gradient {
   background: #ada996;
   background-image: -webkit-linear-gradient(to right, #0f0fa0, #1cb5e0);
   background-image: linear-gradient(to right, #0f0fa0, #1cb5e0);

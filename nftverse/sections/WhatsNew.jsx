@@ -39,7 +39,7 @@ const WhatsNew = () => (
                 <img
                     src="bitcoin.png"
                     alt="get-started"
-                    className="w-[60%] h-[60%] lg:w-[90%] lg:h-[90%] object-contain"
+                    className="w-[90%] h-[90%] object-contain"
                 />
             </motion.div>
         </motion.div>
