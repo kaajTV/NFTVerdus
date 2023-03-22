@@ -14,17 +14,24 @@ const Footer = () => (
         className={`${styles.xPaddings} py-8 relative`}
     >
         <div className="footer-gradient" />
-        <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-            <h4 className="flex items-center justify-between flex-wrap gap-5">
+
+        {/* Add a row with a text and a button */}
+        {/* <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}> */}
+
+        {/* Add a text w/"Enter the NFTVerdus as text" */}
+        {/* <h4 className="flex items-center justify-between flex-wrap gap-5 text-white">
                 Enter the NFTVerdus
-            </h4>
-            <button type="button" className="flex justify-center items-center lg:w-1/3 h-fit mx-auto py-4 px-6 bg-[#338aad] rounded-[32px] gap-[12px]">
-                <img src="/btc.svg" alt="bitcoin" className="w-[24px] h-[24px] object-contain" />
-                <span className="font-normal text-[16px] text-white">
-                    Join NFTVerdus
-                </span>
-            </button>
-        </div>
+            </h4> */}
+
+        {/* Add a button w/"Join NFTVerdus" as text */}
+        {/* <button type="button" className="flex justify-center items-center lg:w-1/3 h-fit mx-auto py-4 px-6 bg-[#338aad] rounded-[32px] gap-[12px]">
+            <img src="/btc.svg" alt="bitcoin" className="w-[24px] h-[24px] object-contain" />
+            <span className="font-normal text-[16px] text-white">
+                Join NFTVerdus
+            </span>
+        </button> */}
+
+        {/* </div> */}
 
         <div className="flex flex-col">
             <div className="mb-[50px] h-[2px] bg-white opacity-10" />
@@ -49,7 +56,7 @@ const Footer = () => (
                 </div>
             </div>
         </div>
-    </motion.footer>
+    </motion.footer >
 );
 
 export default Footer;
