@@ -22,7 +22,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
                     <img src="/btc.svg" alt="bitcoin" className="w-1/2 h-1/2 object-contain" />
                 </div>
                 <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-                    Enter NFTVerse
+                    Enter NFTVerdus
                 </p>
                 <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
                     {title}

@@ -3,8 +3,11 @@ import { Hero, About, Explore, GetStarted, WhatsNew } from "../sections";
 
 const Home = () => (
   <div className="bg-black overflow-hidden">
-    <Navbar />
-    <Hero />
+    <div className="relative">
+      <Navbar />
+      <div className="gradient-06 z-0" />
+      <Hero />
+    </div>
     <div className="relative">
       <About />
       <div className="gradient-03 z-0" />

@@ -2,7 +2,7 @@ import styles from "@/app";
 
 const StartSteps = ({ number, text }) => (
     <div className={`${styles.flexCenter} flex-row`}>
-        <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]`}>
+        <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[18px] bg-[#7a7e88]`}>
             <p className="font-bold text-[20px] text-white">
                 {number}
             </p>

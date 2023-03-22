@@ -26,11 +26,19 @@
 
 .hero-gradient {
   background: linear-gradient(
-    97.86deg,
-    rgba(121, 117, 125, 0.9025522041763341) 0%,
-    rgba(72, 101, 196, 0.949) 51%,
-    rgba(136, 133, 138, 0.9025522041763341) 100%
+    to right,
+    rgba(57, 57, 58, 0.09) 0%,
+    rgba(195, 202, 228, 0.1) 51%,
+    rgba(88, 88, 88, 0.01) 100%
   );
+}
+
+.nfttext-gradient {
+  background: #ada996;
+  background-image: -webkit-linear-gradient(to right, #0f0fa0, #1cb5e0);
+  background-image: linear-gradient(to right, #0f0fa0, #1cb5e0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gradient-02 {
@@ -82,6 +90,18 @@
     rgba(255, 255, 255, 0.04) 0%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+.gradient-06 {
+  position: absolute;
+  width: 520px;
+  height: 560px;
+  right: 5%;
+  top: 7.5%;
+
+  background: rgba(36, 98, 192, 0.75);
+  filter: blur(250px);
+  transform: rotate(-83deg);
 }
 
 .feedback-gradient {

@@ -16,12 +16,12 @@ const Footer = () => (
         <div className="footer-gradient" />
         <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
             <h4 className="flex items-center justify-between flex-wrap gap-5">
-                Enter the NFTVerse
+                Enter the NFTVerdus
             </h4>
             <button type="button" className="flex justify-center items-center lg:w-1/3 h-fit mx-auto py-4 px-6 bg-[#338aad] rounded-[32px] gap-[12px]">
                 <img src="/btc.svg" alt="bitcoin" className="w-[24px] h-[24px] object-contain" />
                 <span className="font-normal text-[16px] text-white">
-                    Enter NFTVerse
+                    Join NFTVerdus
                 </span>
             </button>
         </div>
@@ -31,10 +31,10 @@ const Footer = () => (
 
             <div className="flex items-center justify-between flex-wrap gap-4">
                 <h4 className="font-extrabold text-[24px] text-white">
-                    NFTVERUS
+                    NFTVERDUS
                 </h4>
                 <p className="font-normal text-[14px] text-white opacity-50">
-                    Copyright © 2021 - 2022 NFTVersus. All rights reserved.
+                    Copyright © 2021 - 2022 NFTVerdus. All rights reserved.
                 </p>
 
                 <div className="flex gap-4">

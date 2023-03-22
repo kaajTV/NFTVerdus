@@ -16,17 +16,17 @@ const About = () => (
             viewport={{ once: false, amount: 0.25 }}
             className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
         >
-            <TypingText title="About NFTVersus |" textStyles="text-center" />
+            <TypingText title="About NFTVerdus |" textStyles="text-center" />
 
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-white"
             >
-                <span className="font-extrabold text-white">NFTVerse</span> is a new thing in the crypto world, where you can safely buy and transfer crypto coins, with a really big community to discuss everything about crypto, because this is really the{' '}
+                <span className="font-extrabold text-white">NFTVerdus</span> is a new thing in the crypto world, where you can safely buy and transfer crypto coins, with a really big community to discuss everything about crypto, because this is really the{' '}
                 <span className="font-extrabold text-white">
-                    greatness of the NFTVerse
+                    greatness of the NFTVerdus
                 </span>{' '}
-                <span className="font-extrabold text-white">explore</span> all the greatness of the NFTVerse by scrolling down
+                <span className="font-extrabold text-white">explore</span> all the greatness of the NFTVerdus by scrolling down
             </motion.p>
 
             <motion.img

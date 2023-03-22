@@ -28,7 +28,7 @@ export const exploreNfts = [
 
 export const startingFeatures = [
     'Find the perfect NFT for you and you want to use',
-    'Use NFTVerse to be safe',
+    'Use NFTVerdus to be safe',
     'No need to beat around the bush, just stay on the gas and have fun',
 ];
 
@@ -39,7 +39,7 @@ export const newFeatures = [
         subtitle: 'We have the latest update with NFT',
     },
     {
-        imgUrl: '/headset.svg',
+        imgUrl: '/network-icon.svg',
         title: 'More realistic',
         subtitle: 'The latest update changes everything, follow to stay updated',
     },

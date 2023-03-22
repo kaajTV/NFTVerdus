@@ -15,7 +15,7 @@ const Navbar = () => (
         <div />
         <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
             <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-                NFTVersus
+                NFTVerdus
             </h2>
             <img src="/menu.svg" alt="menu" className="w-[24px] h-[24px] object-contain cursor-pointer" />
         </div>
